@@ -5,6 +5,7 @@ messages_list = [
     "text": "Всем приветы в этом чате",
     "sender": "Васисуалий",
     "date": "31-01-22 21:00",
+    "date2": "31-02",
   },
   {
     "text": "Йо Йо, какие дела?",
@@ -16,7 +17,8 @@ messages_list = [
 # Функция, которая умеет выводить одно сообщение
 def print_message(message):
   print(f"[{message['sender']}]: {message['text']} / {message['date']}")
-  print("-" * 50)
+  print("-" * 90)
+  Print(test)
 
 # Функция добавления нового сообщения
 def add_message(name, txt):
