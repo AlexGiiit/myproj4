@@ -23,14 +23,14 @@ def print_message(message):
 def add_message(name, txt):
   message = {
     "text": txt,
-    "sender": name,
+    "sender sender": name,
     "date": "31-01-22 22:00",
     # Хочется, чтобы текущая дата подставлялась автоматически
   }
   messages_list.append(message) # Добавляем новое сообщение в список
 
 add_message("Сергей", "Расскажите про глобальные и локальные переменные")
-add_message("Ксения", "сделать ее переменной окружения?")
+add_message("Ксения", "Обязательно сделать ее переменной окружения?")
 
 # Пройдем по всем элементам списка (переменная m - конкретный элемент списка)
 for m in messages_list:
