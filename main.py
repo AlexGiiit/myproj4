@@ -17,7 +17,6 @@ messages_list = [
 def print_message(message):
   print(f"[{message['sender']}]: {message['text']} / {message['date']}")
   print("-" * 90)
-  Print(test)
 
 # Функция добавления нового сообщения
 def add_message(name, txt):
@@ -34,4 +33,4 @@ add_message("Ксения", "Обязательно сделать ее пере
 
 # Пройдем по всем элементам списка (переменная m - конкретный элемент списка)
 for m in messages_list:
-  print_message(m)
+  print_message(m+"dergwrg")
